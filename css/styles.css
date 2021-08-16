@@ -1,5 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 * {
   box-sizing: border-box;
@@ -13,7 +13,7 @@ body {
 }
 .site-title h1 {
   font-weight: 400;
-  font-family: "Lora", sans-serif;
+  font-family: "Orbitron", sans-serif;
   color: #1e56a0;
   font-size: 2rem;
   margin: 0;
@@ -33,16 +33,18 @@ body {
 .container-nav {
   display: flex;
   justify-content: space-between;
+
 }
 
 header {
-  background-color: white;
+  background-color: black;
   padding: 2em 0;
   box-shadow: 0 4px 8px 0 rgba(22, 22, 22, 0.19);
 }
 @media (max-width: 675px) {
   .container-nav {
     flex-direction: column;
+    background-color: black;
   }
   header {
     text-align: center;
@@ -104,13 +106,13 @@ nav a:focus {
 .landing-text h3 {
   font-weight: 700;
   color: white;
-  font-family: "Lora", sans-serif;
+  font-family: "Orbitron", sans-serif;
 }
 .landing-text h1 {
   font-size: 450%;
   font-weight: 700;
   color: white;
-  font-family: "Lora", sans-serif;
+  font-family: "Orbitron", sans-serif;
   padding-bottom: 0;
   margin: 0 0;
 }
@@ -120,7 +122,7 @@ nav a:focus {
   }
 }
 .btn-hire {
-  background-color: #1e56a0;
+  background-color: #C80DC3;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -245,7 +247,7 @@ nav a:focus {
 }
 .team .column h3 {
   font-weight: 600;
-  font-family: "Lora", sans-serif;
+  font-family: "Orbitron", sans-serif;
   color: #181b2c;
   text-align: center;
   margin-bottom: 3px;
